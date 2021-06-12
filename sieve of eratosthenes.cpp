@@ -13,13 +13,12 @@ int main() {
         }
     }
     
-    for(long i=2;i<n+1;i++){
+    vector <long> prim;
+    for(long i=0;i<n+1;i++){
         if(isprime[i]){
-            cout<<i<<" ";
+            prim.push_back(i);
         }
     }
-    
-    cout<<endl;
-    
+
 	return 0;
 }
